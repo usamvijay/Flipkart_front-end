@@ -16,11 +16,57 @@ body{
     background-color: rgb(88, 88, 252);
     display: flex;
     max-height: fit-content;
-    overflow: hidden;
    
 }
-/* ============== */
+.user-tray{
+    margin:0px 5px 0px 5px;
+    font-family: var(--font-family);
+    word-break: keep-all; 
+    position: relative;
+}
+.user-tray a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-left: 10px;
+   
+}
 
+/* ============== */
+.user-drop-down{
+    background-color: white;
+    width: 230px;
+    margin-left: -50px;
+    position: absolute;
+    top:50px;
+    overflow: visible;
+    display: none;
+}
+.user-drop-down ul{
+    padding: 10px;
+    list-style-type: none;
+    margin-left: 10px;
+}
+.user-drop-down li{
+    border-bottom: 1px solid rgba(3, 3, 3, 0.1) ;
+    margin: 4px;
+    padding-bottom: 0px;
+    display: flex;
+}
+.user-drop-down  a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.user-links .user-icons{
+    color: blue;
+    font-size: 20px;
+    margin-top: 10px;
+}
 /* ============== */
 .nav-menus{
     display: flex;
