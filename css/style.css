@@ -27,7 +27,7 @@ body{
 .user-tray:hover .user-drop-down{
  display: block;
 }
-.user-tray a{
+.user-tray button{
     text-decoration: none;
     color:rgb(255, 255, 255);
     font-size: 15px;
@@ -45,7 +45,7 @@ body{
     position: absolute;
     top:50px;
     overflow: visible;
-    display: none;
+    display:none;
 }
 user.user-drop-down:hover{
     display: block;
@@ -256,4 +256,25 @@ footer{
     font-weight: 300;
     font-family:var(--font-family);
     line-height: 25px;
+}
+/*====== Category Link css ======== */
+.category-header-2{
+    background-color: white;
+    box-shadow: 0px 1px 3px black;
+    max-height: 150px;
+    padding: 0px 20px 0px 20px;
+    overflow: hidden;
+    display: flex;
+}
+.category-link{
+    display: flex;
+    padding:12px 20px;
+
+}
+.category-link a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
 }
