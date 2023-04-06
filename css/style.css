@@ -278,3 +278,74 @@ footer{
     font-weight: 600;
     margin-left: 5px;
 }
+.product-details-section{
+    margin-top: 10px;
+    
+}
+.list-preview{
+    float: left;
+}
+.main-item img{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgba(8, 1, 1, 0.2);
+    border-left: 0px;
+  
+}
+.main-item{
+    float:right;
+    margin-left: -50px;
+}
+/* list preview */
+.list-preview img{
+    width:50px;
+    height:auto;
+    display: block;
+    margin:5px;
+    margin-right:0px; 
+    border: 1px solid rgba(8, 1, 1, 0.2);
+    
+}
+.product-view{
+    border: 1px solid rgba(8, 1, 1, 0.2);
+}
+.breadcrumb{
+    margin: 0px;
+    padding:0px;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color:rgb(88, 88, 88);
+    font-family: var(--font-family);
+    font-size:11px;
+    font-weight: 100;
+    margin-left:10px;
+}
+.breadcrumb span{
+    color:rgb(88, 88, 88); 
+    margin-top: -5px;
+    padding-left:5px;
+}
+.ratting{
+    display: flex;
+    font-weight: 500;
+}
+.ratting span{
+    background-color: green;
+    height: 20px;
+    width: 30px;
+    padding:2px;
+    color:rgb(247, 247, 247);
+    border-radius: 2px;
+    margin-right: 5px;
+}
+.rates{
+    color:rgb(88, 88, 88);
+}
+.ratting img{
+    height: 20px;
+    width: auto;
+    margin-left:10px;
+    margin-top: 2px;
+}
