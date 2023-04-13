@@ -422,31 +422,65 @@ footer{
     background-color: white;
     height: 50px;
     border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(10, 10, 10, 0.3);
 }
 .pan-body{
     display: flex;
     align-items: center;
     height: 50px;
-    margin:0px 20px 0px 10%;
-  
+    margin:0px 20px 0px 10%; 
+}
+.pan-body a{
+    text-decoration:none;
+    color:black;
+    font-size:15px;
+    font-weight:600;
+}
+.pan-body a:hover{
+    color:blue;
+    border-bottom: 2px solid blue;
+    padding-bottom: 15px;
 }
 .panel-2{
-    background-color: rgb(255, 250, 250);
-    height: 100px;
+    background-color: white;
+    height: auto;
     border-radius: 2px;
     margin-top:15px;
+     box-shadow: 1px 1px 3px rgba(10, 10, 10, 0.3);
+     position: relative;
 }
-.delevery-to{
+.delivery-to span{
     display: flex;
-    line-height: 10px;
+    margin:15px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    
 }
-.delevery-to p{
+.work-btn{
+    margin: 5px;
+    background-color: rgb(218, 213, 213);
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 2px;
+    height: auto;
+    width: auto;
+    border-radius: 3px;
+
+}
+.del-address p{
+    margin-top:-35px;
+    font-weight: 500;
+    color:grey;
+}
+.change-btn{
+    float:right;
+    position: absolute;
+    top:30%;
+    right:30px;
    
 }
-.delevery-to p{
-    font-size: 14px;
-}
-.delevery-to p span{
-    font-size: 15px;
-    font-weight: 600;
+.panel-2 a{
+    background-color: white;
+    text-decoration: none;
+    border:1px solid grey;
 }
