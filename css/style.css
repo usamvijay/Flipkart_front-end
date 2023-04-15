@@ -45,11 +45,10 @@ body{
     position: absolute;
     top:50px;
     overflow: visible;
+    z-index: 5555;
     display:none;
 }
-user.user-drop-down:hover{
-    display: block;
-}
+
 .user-drop-down ul{
     padding: 10px;
     list-style-type: none;
@@ -424,6 +423,38 @@ footer{
     border-radius: 2px;
     box-shadow: 1px 1px 3px rgba(10, 10, 10, 0.3);
 }
+.color-section{
+    display:flex;
+    margin-left:10px;
+    margin-bottom: 10px;
+
+}
+.color-section img{
+    width:50px;
+    height: auto;
+    margin:10px;
+    border: 1px solid grey;
+    padding:5px;
+    
+}
+.color-text, .size-text{
+    color:rgb(88, 88, 88);
+    font-size: 14px;
+    font-weight: 600;
+    margin-right:15px;
+}
+.grey-text{
+    color:rgb(88, 88, 88);
+    font-size: 14px;
+    font-weight: 600;
+    margin-right:15px;
+}
+.color-section a{
+    font-size: large;
+    font-weight: 600;
+    border: 1px solid rgba(177, 174, 174, 0.5);
+    margin-left:10px;
+}
 .pan-body{
     display: flex;
     align-items: center;
@@ -452,6 +483,7 @@ footer{
 .delivery-to span{
     display: flex;
     margin:15px;
+    margin-top: 20px;
     margin-bottom: 0px;
     font-size: 14px;
     
@@ -483,4 +515,17 @@ footer{
     background-color: white;
     text-decoration: none;
     border:1px solid grey;
+}
+
+
+.warranty, .Delivery{
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.input-pin{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid blue ;
+    width: 100%;
 }
