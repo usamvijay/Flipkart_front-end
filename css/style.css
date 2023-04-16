@@ -529,3 +529,51 @@ footer{
     border-bottom: 2px solid blue ;
     width: 100%;
 }
+.pincode-section{
+    display: flex;
+    border-bottom: 2px solid blue;
+    margin-bottom: 10px;
+}
+.blue-icon{
+    color: blue;
+    font-size: 20px;
+}
+.pincode-section input{
+    border: none;
+    outline: none;
+    height:30px;
+    background-color:rgb(247, 245, 245);
+
+}
+.pincode-section input[type=text]{
+    padding:5px;
+    margin-top:-6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.pincode-section button{
+    margin-top: -8px;
+    margin-left: -25px;
+    font-size: 13px;
+    color:blue;
+    font-weight: 500;
+}
+.delivery-time{
+    display: flex;
+    margin-top: -5px;
+}
+.delivery-time p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.super-coin img{
+    width: auto;
+    height: 100px;
+}
+.specification .list-group{
+    width:100%;
+}
+.specification-name p{
+    color:grey;
+    font-weight: 400;
+}
