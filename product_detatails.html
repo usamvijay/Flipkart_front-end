@@ -1,178 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
-    <!-- Google Icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <!-- jQuery flie -->
-    <script src="js/jquery-3.6.4.min.js"></script>
-    <!--  Owl Carousel -->
-    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+  <!-- Google Icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- jQuery flie -->
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <!--  Owl Carousel -->
+  <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <div class="container-flued">
     <div class="nav">
-     <div class="nav-menus">
-      <div class="nav-brand">
-        <img src="images/brand.png">
-        <div class="explore">
-          <p>Explore <span>Plus</span></p>
+      <div class="nav-menus">
+        <div class="nav-brand">
+          <img src="images/brand.png">
+          <div class="explore">
+            <p>Explore <span>Plus</span></p>
+          </div>
         </div>
-      </div>
-      <div class="nav-search">
-        <input type="search" placeholder="Saarch for Products, Brands and More">
-      </div>
-      <div class="user-tray">
-        <button id="open" onclick="open_drop_down()" class=" btn btn-link">Usam"s</button>
-        <!-- ======Drop Down -->
-    <div class="user-drop-down">
-      <ul class="user-links">
-        <li><span class="material-symbols-outlined user-icons">
-          account_circle
-          </span><a href=""> My Profile</a></li>
-        <li><span class="material-symbols-outlined user-icons">
-          charger
-          </span><a href=""> SuperCoin Zone</a></li>
-        <li><span class="material-symbols-outlined user-icons">
-          auto_awesome
-          </span><a href=""> Flipkart Plus Zone</a></li>
-        <li><span class="material-symbols-outlined user-icons">
-          drive_folder_upload
-          </span><a href=""> Orders</a></li>
-        <li><span class="material-symbols-outlined user-icons">
-          favorite
-          </span><a href=""> Wishlist</a></li>
-        <li><span class="material-symbols-outlined user-icons">
-          account_balance_wallet
-          </span><a href=""> Gift Card</a></li>
-        <li><span class="material-symbols-outlined user-icons">
-          notifications
-          </span><a href=""> Notification</a></li>
-        <li><span class="material-symbols-outlined user-icons">
-          power_rounded
-          </span><a href=""> Logout</a></li>
-      </ul>
-    </div>
-    <!-- Drop Down -->
-    
-      </div>
-      <div class="nav-link">
-        <a href="">Become A Seller</a>
-      </div>
-      <div class="user-tray">
-        <button id="open" onclick="open_drop_down()" class=" btn btn-link">More</button>
-        <!-- ======Drop Down -->
-    <div class="user-drop-down">
-      <ul class="user-links">
-        <li><span class="material-symbols-outlined user-icons">
-          account_circle
-          </span><a href=""> My Profile</a></li>
-        <li><span class="material-symbols-outlined user-icons">
-          charger
-          </span><a href=""> SuperCoin Zone</a></li>
-        <li><span class="material-symbols-outlined user-icons">
-          auto_awesome
-          </span><a href=""> Flipkart Plus Zone</a></li>
-        <li><span class="material-symbols-outlined user-icons">
-          drive_folder_upload
-          </span><a href=""> Orders</a></li>
-        <li><span class="material-symbols-outlined user-icons">
-          favorite
-          </span><a href=""> Wishlist</a></li>
-        <li><span class="material-symbols-outlined user-icons">
-          account_balance_wallet
-          </span><a href=""> Gift Card</a></li>
-        <li><span class="material-symbols-outlined user-icons">
-          notifications
-          </span><a href=""> Notification</a></li>
-        <li><span class="material-symbols-outlined user-icons">
-          power_rounded
-          </span><a href=""> Logout</a></li>
-      </ul>
-    </div>
-    <!-- Drop Down -->
-    
-      </div>
-      <div class="nav-link flex">
-        
+        <div class="nav-search">
+          <input type="search" placeholder="Saarch for Products, Brands and More">
+        </div>
+        <div class="user-tray">
+          <button id="open" onclick="open_drop_down()" class=" btn btn-link">Usam"s</button>
+          <!-- ======Drop Down -->
+          <div class="user-drop-down">
+            <ul class="user-links">
+              <li><span class="material-symbols-outlined user-icons">
+                  account_circle
+                </span><a href=""> My Profile</a></li>
+              <li><span class="material-symbols-outlined user-icons">
+                  charger
+                </span><a href=""> SuperCoin Zone</a></li>
+              <li><span class="material-symbols-outlined user-icons">
+                  auto_awesome
+                </span><a href=""> Flipkart Plus Zone</a></li>
+              <li><span class="material-symbols-outlined user-icons">
+                  drive_folder_upload
+                </span><a href=""> Orders</a></li>
+              <li><span class="material-symbols-outlined user-icons">
+                  favorite
+                </span><a href=""> Wishlist</a></li>
+              <li><span class="material-symbols-outlined user-icons">
+                  account_balance_wallet
+                </span><a href=""> Gift Card</a></li>
+              <li><span class="material-symbols-outlined user-icons">
+                  notifications
+                </span><a href=""> Notification</a></li>
+              <li><span class="material-symbols-outlined user-icons">
+                  power_rounded
+                </span><a href=""> Logout</a></li>
+            </ul>
+          </div>
+          <!-- Drop Down -->
+
+        </div>
+        <div class="nav-link">
+          <a href="">Become A Seller</a>
+        </div>
+        <div class="user-tray">
+          <button id="open" onclick="open_drop_down()" class=" btn btn-link">More</button>
+          <!-- ======Drop Down -->
+          <div class="user-drop-down">
+            <ul class="user-links">
+              <li><span class="material-symbols-outlined user-icons">
+                  account_circle
+                </span><a href=""> My Profile</a></li>
+              <li><span class="material-symbols-outlined user-icons">
+                  charger
+                </span><a href=""> SuperCoin Zone</a></li>
+              <li><span class="material-symbols-outlined user-icons">
+                  auto_awesome
+                </span><a href=""> Flipkart Plus Zone</a></li>
+              <li><span class="material-symbols-outlined user-icons">
+                  drive_folder_upload
+                </span><a href=""> Orders</a></li>
+              <li><span class="material-symbols-outlined user-icons">
+                  favorite
+                </span><a href=""> Wishlist</a></li>
+              <li><span class="material-symbols-outlined user-icons">
+                  account_balance_wallet
+                </span><a href=""> Gift Card</a></li>
+              <li><span class="material-symbols-outlined user-icons">
+                  notifications
+                </span><a href=""> Notification</a></li>
+              <li><span class="material-symbols-outlined user-icons">
+                  power_rounded
+                </span><a href=""> Logout</a></li>
+            </ul>
+          </div>
+          <!-- Drop Down -->
+
+        </div>
+        <div class="nav-link flex">
+
           <span class="material-symbols-outlined nav-cart">
             shopping_cart
-            </span>
-      
-        <a href="">Cart</a>
+          </span>
+
+          <a href="">Cart</a>
+        </div>
       </div>
-     </div>
     </div>
 
-    
-       <div class="category-header-2">
-          <div class="category-link">
-         <a href="">Eloctronics</a>
-        </div>
-          <div class="category-link">
-         <a href="">TV & Applainces</a>
-        </div>
-          <div class="category-link">
-         <a href="">Men</a>
-        </div>
-          <div class="category-link">
-         <a href="">Women</a>
-        </div>
-          <div class="category-link">
-         <a href="">Baby & Kids</a>
-        </div>
-          <div class="category-link">
-         <a href="">Home & Furniter</a>
-        </div>
-          <div class="category-link">
-         <a href="">Sports, Books & More</a>
-        </div>
-          <div class="category-link">
-         <a href="">Flights</a>
-        </div>
-          <div class="category-link">
-         <a href="">Offer Zone</a>
-        </div>
-          <div class="category-link">
-         <a href="">Grocery</a>
-        </div>
-          <div class="category-link">
-         <a href="">Others</a>
-        </div> 
-        </div>
 
-      <div class="product-details-section">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-5">
-              <div class="product-view">
+    <div class="category-header-2">
+      <div class="category-link">
+        <a href="">Eloctronics</a>
+      </div>
+      <div class="category-link">
+        <a href="">TV & Applainces</a>
+      </div>
+      <div class="category-link">
+        <a href="">Men</a>
+      </div>
+      <div class="category-link">
+        <a href="">Women</a>
+      </div>
+      <div class="category-link">
+        <a href="">Baby & Kids</a>
+      </div>
+      <div class="category-link">
+        <a href="">Home & Furniter</a>
+      </div>
+      <div class="category-link">
+        <a href="">Sports, Books & More</a>
+      </div>
+      <div class="category-link">
+        <a href="">Flights</a>
+      </div>
+      <div class="category-link">
+        <a href="">Offer Zone</a>
+      </div>
+      <div class="category-link">
+        <a href="">Grocery</a>
+      </div>
+      <div class="category-link">
+        <a href="">Others</a>
+      </div>
+    </div>
+
+    <div class="product-details-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="product-view">
               <div class="list-preview">
-              <img src="images/Items/cam.webp">
-              <img src="images/Items/cam.webp">
-              <img src="images/Items/cam.webp">
-              <img src="images/Items/cam.webp">
+                <img src="images/Items/cam.webp">
+                <img src="images/Items/cam.webp">
+                <img src="images/Items/cam.webp">
+                <img src="images/Items/cam.webp">
+              </div>
+              <div class="main-item">
+                <img src="images/Items/cam.webp">
+                <div class="cart-buttons">
+                  <a id="cart-btn" href=""> ADD TO CART</a>
+                  <a id="buy-btn" href="">BY NOW</a>
+                </div>
+              </div>
+              <!-- ===Buttons -->
+
             </div>
-            <div class="main-item">
-              <img src="images/Items/cam.webp">
-            
-            </div>
-            <!-- ===Buttons -->
-            
           </div>
-            </div>
-            <div class="col-md-7">
-              <div class="item-info">
+          <div class="col-md-7">
+            <div class="item-info">
               <div class="breadcrumb">
                 <a href="">Home</a> <span>></span>
                 <a href="">Camera & Accessories</a> <span>></span>
@@ -180,9 +186,11 @@
                 <a href="">Camera</a>
               </div>
               <div class="item-details">
-                <h5>Canon EOS M200 Mirrorless Camera Body with Single Lens (EF-M15-45mm f/3.5-6.3 IS STM)  (Black)</h5>
+                <h5>Canon EOS M200 Mirrorless Camera Body with Single Lens (EF-M15-45mm f/3.5-6.3 IS STM) (Black)</h5>
                 <div class="ratting">
-                  <span class="badge badge-success count"><p>4.4</p></span>
+                  <span class="badge badge-success count">
+                    <p>4.4</p>
+                  </span>
                   <p class="rates">1,465 Ratings & 209 Reviews</p>
                   <img src="images/assured.png">
                 </div>
@@ -205,36 +213,37 @@
                 </div>
                 <div class="color-section">
                   <span class="size-text">Color:</span>
-                  <a class="btn btn-light"  href="">S</a>
+                  <a class="btn btn-light" href="">S</a>
                   <a class="btn btn-light" href="">M</a>
                   <a class="btn btn-light" href="">L</a>
                   <a class="btn btn-light" href="">XL</a>
                   <a class="btn btn-light" href="">XXL</a>
-                  <a class="btn btn-light"href="">XXXL</a>
+                  <a class="btn btn-light" href="">XXXL</a>
                 </div>
                 <div class="available-offers">
                   <h6>Avialable Offers</h6>
                   <div class="offer-tags">
                     <div class="tags">
                       <span class="material-symbols-outlined tag-ic">sell</span>
-                        <span>Bank Offer <p>5% Cashback on Flipkart Axis Bank Card</p></span>
-                    <a href="">T&C</a>
-                  </div>
+                      <span>Bank Offer <p>5% Cashback on Flipkart Axis Bank Card</p></span>
+                      <a href="">T&C</a>
+                    </div>
                     <div class="tags">
                       <span class="material-symbols-outlined tag-ic">sell</span>
-                    <span>Special Price<p>Get extra 9% off (price inclusive of cashback/coupon)</p></span>
-                    <a href="">T&C</a>
-                  </div>
+                      <span>Special Price<p>Get extra 9% off (price inclusive of cashback/coupon)</p></span>
+                      <a href="">T&C</a>
+                    </div>
                     <div class="tags">
                       <span class="material-symbols-outlined tag-ic">sell</span>
-                    <span>Partner Offer<p>Sign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500*</p></span>
-                    <a href="">T&C</a>
-                  </div>
+                      <span>Partner Offer<p>Sign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500*
+                        </p></span>
+                      <a href="">T&C</a>
+                    </div>
                     <div class="tags">
                       <span class="material-symbols-outlined tag-ic">sell</span>
-                    <span>Partner Offer <p>Partner Offer</p></span>
-                    <a href="">Know More</a>
-                  </div>
+                      <span>Partner Offer <p>Partner Offer</p></span>
+                      <a href="">Know More</a>
+                    </div>
                   </div>
                   <a class="view-more" href="">View 3 more Offers</a>
                 </div>
@@ -242,41 +251,42 @@
                   <li class="list-group-item">
                     <div class="row">
                       <div class="col-md-1">
-                    <input type="radio">
-                  </div>
-                  <div class="col-md-6">
-                    <span class="">By without Exchange</span> 
-                  </div>
-                  <div class="col-md-5">
-                    <p>₹144,999</p>
-                  </div>
+                        <input type="radio">
+                      </div>
+                      <div class="col-md-6">
+                        <span class="">By without Exchange</span>
+                      </div>
+                      <div class="col-md-5">
+                        <p>₹144,999</p>
+                      </div>
                   </li>
                   <li class="list-group-item">
                     <div class="row">
                       <div class="col-md-1">
-                    <input type="radio">
-                  </div>
-                  <div class="col-md-6">
-                    <span class="">By with Exchange</span> 
-                  </div>
-                  <div class="col-md-5">
-                    <p>up to ₹18,500 off</p>
-                  </div>
+                        <input type="radio">
+                      </div>
+                      <div class="col-md-6">
+                        <span class="">By with Exchange</span>
+                      </div>
+                      <div class="col-md-5">
+                        <p>up to ₹18,500 off</p>
+                      </div>
                   </li>
                 </ul>
                 <!-- warranty section -->
                 <div class="warranty">
-                <div class="row">
-                  <div class="col-md-2">
-                    <span class="grey-text">Warranty</span>
-                  </div>
-                  <div class="col-md-10">
-                    <div class="warranty-info">
-                      <p>2 Year Warranty (1 year standard warranty + 1 year additional warranty from the date of purchase made by the customer.)</p>
+                  <div class="row">
+                    <div class="col-md-2">
+                      <span class="grey-text">Warranty</span>
+                    </div>
+                    <div class="col-md-10">
+                      <div class="warranty-info">
+                        <p>2 Year Warranty (1 year standard warranty + 1 year additional warranty from the date of
+                          purchase made by the customer.)</p>
+                      </div>
                     </div>
                   </div>
-              </div>
-            </div>
+                </div>
                 <!-- warranty section -->
                 <!-- Delivery section -->
                 <div class="Delivery">
@@ -288,17 +298,17 @@
                       <div class="pincode-section">
                         <span class="material-symbols-outlined blue-icon">
                           location_on
-                          </span>
-                          <input type="text" placeholder="507117">
-                          <button class="btn btn-link">Change</button>
+                        </span>
+                        <input type="text" placeholder="507117">
+                        <button class="btn btn-link">Change</button>
 
                       </div>
                       <div class="delivery-time">
                         <p>Delivery by19 Apr, Wednesday<span>| Free ₹40</span></p>
                       </div>
                     </div>
+                  </div>
                 </div>
-              </div>
                 <!-- Delivery section -->
                 <!-- Highlights start -->
                 <div class="warranty">
@@ -308,7 +318,9 @@
                     </div>
                     <div class="col-md-5">
                       <div class="warranty-info">
-                        <p> Self-Timer, Type C and Mini HDMI, 9 Auto Focus Points, 3x Optical Zoom, WiFi, Full HD, Video Recording at 1080 p on 30fps, APS-C CMOS sensor-which is 25 times larger than a typical Smartphone sensor.
+                        <p> Self-Timer, Type C and Mini HDMI, 9 Auto Focus Points, 3x Optical Zoom, WiFi, Full HD, Video
+                          Recording at 1080 p on 30fps, APS-C CMOS sensor-which is 25 times larger than a typical
+                          Smartphone sensor.
                           Effective Pixels: 18 MP
                           Sensor Type: CMOS
                           WiFi Available
@@ -318,14 +330,17 @@
                     <div class="col-md-5">
                       <div class="warranty-info">
                         <div class="flex">
-                        <span class="material-symbols-outlined blue-icon">
-                          verified_user
-                          </span><p>2 Year Warranty (1 year standard warranty + 1 year additional warranty from the date of purchase made by the customer.)</p>
+                          <span class="material-symbols-outlined blue-icon">
+                            verified_user
+                          </span>
+                          <p>2 Year Warranty (1 year standard warranty + 1 year additional warranty from the date of
+                            purchase made by the customer.)</p>
                         </div>
                         <div class="flex">
-                        <span class="material-symbols-outlined blue-icon">
-                          currency_rupee
-                          </span><p>Cash on Delivery available</p>
+                          <span class="material-symbols-outlined blue-icon">
+                            currency_rupee
+                          </span>
+                          <p>Cash on Delivery available</p>
                         </div>
                       </div>
                     </div>
@@ -338,11 +353,12 @@
                         </div>
                         <div class="col-md-10">
                           <div class="warranty-info">
-                            <p>2 Year Warranty (1 year standard warranty + 1 year additional warranty from the date of purchase made by the customer.)</p>
+                            <p>2 Year Warranty (1 year standard warranty + 1 year additional warranty from the date of
+                              purchase made by the customer.)</p>
                           </div>
                         </div>
+                      </div>
                     </div>
-                  </div>
                     <!-- Importent Note -->
                     <div class="super-coin">
                       <img src="images/Items/flipkart-rs-1-store.jpg">
@@ -356,354 +372,432 @@
                         <div class="col-md-10">
                           <div class="warranty-info">
                             <p>
-                              If you are a photography enthusiast, then the Canon EOS 3000D DSLR Camera is a must-have gadget. Featuring an 18 MP (APS-C) CMOS sensor and the DIGIC 4+ imaging processor, you can capture amazing photos of your subject at all times, even in low-light conditions. Moreover, the remote Live View function lets you control this camera remotely using your smartphone so you can capture amazing photos even from a distance.</p>
+                              If you are a photography enthusiast, then the Canon EOS 3000D DSLR Camera is a must-have
+                              gadget. Featuring an 18 MP (APS-C) CMOS sensor and the DIGIC 4+ imaging processor, you can
+                              capture amazing photos of your subject at all times, even in low-light conditions.
+                              Moreover, the remote Live View function lets you control this camera remotely using your
+                              smartphone so you can capture amazing photos even from a distance.</p>
                           </div>
                         </div>
+                      </div>
                     </div>
-                  </div>
                     <!-- Description End -->
                     <!-- =====Specification -->
                     <div class="specification">
-                    <table class="specification-table">
-                      <tr>
-                        <td><h3> Specifications</h3></td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <h6>In The Box</h6>
-                          <p>py WiFi Magnet Camera 1080P HD Hidden Camera_Small Wireless Home Security Surveillance</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <h6>Genaral</h6>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <div class="row">
-                          <div class="col-md-2">
-                            <div class="specification-property">
-                              <p>Brand</p>
-                              <p>Model Number</p>
-                              <p>Model Name</p>
-                              <p>SLR Variant</p>
-                              <p>Brand Color</p>
-                              <p>Type</p>
-                              <p>Effective Pixels</p>
-                              <p>Tripod Socket</p>
-                              <p>Wifi</p>
+                      <table class="specification-table">
+                        <tr>
+                          <td>
+                            <h3> Specifications</h3>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <h6>In The Box</h6>
+                            <p>py WiFi Magnet Camera 1080P HD Hidden Camera_Small Wireless Home Security Surveillance
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <h6>Genaral</h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="row">
+                              <div class="col-md-2">
+                                <div class="specification-property">
+                                  <p>Brand</p>
+                                  <p>Model Number</p>
+                                  <p>Model Name</p>
+                                  <p>SLR Variant</p>
+                                  <p>Brand Color</p>
+                                  <p>Type</p>
+                                  <p>Effective Pixels</p>
+                                  <p>Tripod Socket</p>
+                                  <p>Wifi</p>
 
-                            </div>
-                          </div>
-                          <div class="col-md-10">
-                            <div class="specification-value">
-                              <p>Nikon</p>
-                              <p>EOS 3000D</p>
-                              <p>EOS</p>
-                              <p>1 Camera Body, 18 - 55 mm Lens</p>
-                              <p>Black</p>
-                              <p>DSLR</p>
-                              <p>18 MP</p>
-                              <p>Yes</p>
-                              <p>Yes</p>
+                                </div>
+                              </div>
+                              <div class="col-md-10">
+                                <div class="specification-value">
+                                  <p>Nikon</p>
+                                  <p>EOS 3000D</p>
+                                  <p>EOS</p>
+                                  <p>1 Camera Body, 18 - 55 mm Lens</p>
+                                  <p>Black</p>
+                                  <p>DSLR</p>
+                                  <p>18 MP</p>
+                                  <p>Yes</p>
+                                  <p>Yes</p>
 
+                                </div>
+                              </div>
                             </div>
-                          </div>
-                        </div>
-                        </td>
-                        
-                      </tr>
-                      <tr>
-                        <td>
-                          <h6>Sensor Features</h6>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <div class="row">
-                          <div class="col-md-2">
-                            <div class="specification-property">
-                              <p>Sensor Type</p>
-                              <p>Image Sensor Size</p>
-                            </div>
-                          </div>
-                          <div class="col-md-10">
-                            <div class="specification-value">
-                              <p>CMOS</p>
-                              <p>22.3 x 14.9mm</p>
-                            </div>
-                          </div>
-                        </div>
-                        </td>
-                        
-                      </tr>
-                      <tr>
-                        <td>
-                          <h6>Video Features</h6>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <div class="row">
-                          <div class="col-md-2">
-                            <div class="specification-property">
-                              <p>Video Resolution</p>
-                              <p>Video Quality</p>
-                            </div>
-                          </div>
-                          <div class="col-md-10">
-                            <div class="specification-value">
-                              <p>1920 x 1080</p>
-                              <p>Full HD</p>
-                            </div>
-                          </div>
-                        </div>
-                        </td>
-                        
-                      </tr>
+                          </td>
 
-                    </table>
-                     </div>
+                        </tr>
+                        <tr>
+                          <td>
+                            <h6>Sensor Features</h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="row">
+                              <div class="col-md-2">
+                                <div class="specification-property">
+                                  <p>Sensor Type</p>
+                                  <p>Image Sensor Size</p>
+                                </div>
+                              </div>
+                              <div class="col-md-10">
+                                <div class="specification-value">
+                                  <p>CMOS</p>
+                                  <p>22.3 x 14.9mm</p>
+                                </div>
+                              </div>
+                            </div>
+                          </td>
+
+                        </tr>
+                        <tr>
+                          <td>
+                            <h6>Video Features</h6>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="row">
+                              <div class="col-md-2">
+                                <div class="specification-property">
+                                  <p>Video Resolution</p>
+                                  <p>Video Quality</p>
+                                </div>
+                              </div>
+                              <div class="col-md-10">
+                                <div class="specification-value">
+                                  <p>1920 x 1080</p>
+                                  <p>Full HD</p>
+                                </div>
+                              </div>
+                            </div>
+                          </td>
+
+                        </tr>
+
+                      </table>
+                    </div>
                     <!-- =====Specification End -->
                     <!-- =====Ratting & Reviews Start -->
                     <div class="review-section">
-                    <div class="ratting-header">
-                      <h4>Ratting & Reviews</h4>
-                      <a href="">Rate Product</a>
-                    </div>
-                    <div class="ratting-panel">
-                      <div class="overal-ratting">
-                        <div class="row">
-                          <div class="col-md-3">
-                            <h3>4.4<span class="material-symbols-outlined">
-                              star
-                              </span></h3>
-                            <p>26,462 Ratings & 3,902 Reviews</p>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="ratting-bars">
-                              <h6>5</h6><span class="material-symbols-outlined star-ratting">
-                                star
+                      <div class="ratting-header">
+                        <h4>Ratting & Reviews</h4>
+                        <a href="">Rate Product</a>
+                      </div>
+                      <div class="ratting-panel">
+                        <div class="overal-ratting">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <h3>4.4<span class="material-symbols-outlined">
+                                  star
+                                </span></h3>
+                              <p>26,462 Ratings & 3,902 Reviews</p>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="ratting-bars">
+                                <h6>5</h6><span class="material-symbols-outlined star-ratting">
+                                  star
                                 </span>
                                 <div class="progress">
-                                  <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-bar bg-success" role="progressbar" style="width: 95%"
+                                    aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p> 254256</p>
-                            </div>
-                            <div class="ratting-bars">
-                              <h6>5</h6><span class="material-symbols-outlined star-ratting">
-                                star
+                              </div>
+                              <div class="ratting-bars">
+                                <h6>5</h6><span class="material-symbols-outlined star-ratting">
+                                  star
                                 </span>
                                 <div class="progress">
-                                  <div class="progress-bar bg-success" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-bar bg-success" role="progressbar" style="width: 45%"
+                                    aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p> 25427</p>
-                            </div>
-                            <div class="ratting-bars">
-                              <h6>5</h6><span class="material-symbols-outlined star-ratting">
-                                star
+                              </div>
+                              <div class="ratting-bars">
+                                <h6>5</h6><span class="material-symbols-outlined star-ratting">
+                                  star
                                 </span>
                                 <div class="progress">
-                                  <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-bar bg-success" role="progressbar" style="width: 20%"
+                                    aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p> 2556</p>
-                            </div>
-                            <div class="ratting-bars">
-                              <h6>5</h6><span class="material-symbols-outlined star-ratting">
-                                star
+                              </div>
+                              <div class="ratting-bars">
+                                <h6>5</h6><span class="material-symbols-outlined star-ratting">
+                                  star
                                 </span>
                                 <div class="progress">
-                                  <div class="progress-bar bg-warning" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-bar bg-warning" role="progressbar" style="width: 15%"
+                                    aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p> 252</p>
-                            </div>
-                            <div class="ratting-bars">
-                              <h6>5</h6><span class="material-symbols-outlined star-ratting">
-                                star
+                              </div>
+                              <div class="ratting-bars">
+                                <h6>5</h6><span class="material-symbols-outlined star-ratting">
+                                  star
                                 </span>
                                 <div class="progress">
-                                  <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-bar bg-danger" role="progressbar" style="width: 25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p> 2556</p>
+                              </div>
                             </div>
                           </div>
                         </div>
+                        <hr>
+                        <div class="reviews-panel">
+                          <div class="overal-review">
+                            <span class="badge badge-success count">
+                              <p>4.4</p>
+                            </span>
+                            <p>Excellent</p>
+                          </div>
+                          <div class="comment">
+                            <p>Product really great . I am totally sctified this product .really good camera for beggner
+                              .but flash button was missing that is not good .and capture is 18 mp wasn't good I was
+                              hopeed it will be 24 mp . it is also missing .n everything is good .</p>
+                          </div>
+                          <div class="review-images flex">
+                            <img src="images/Items/cam.webp">
+                            <img src="images/Items/cam.webp">
+                            <img src="images/Items/cam.webp">
+                            <img src="images/Items/cam.webp">
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="reviews-panel">
+                          <div class="overal-review">
+                            <span class="badge badge-success count">
+                              <p>4.4</p>
+                            </span>
+                            <p>Excellent</p>
+                          </div>
+                          <div class="comment">
+                            <p>Product really great . I am totally sctified this product .really good camera for beggner
+                              .but flash button was missing that is not good .and capture is 18 mp wasn't good I was
+                              hopeed it will be 24 mp . it is also missing .n everything is good .</p>
+                          </div>
+                          <div class="review-images flex">
+                            <img src="images/Items/cam.webp">
+                            <img src="images/Items/cam.webp">
+                            <img src="images/Items/cam.webp">
+                            <img src="images/Items/cam.webp">
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="reviews-panel">
+                          <div class="overal-review">
+                            <span class="badge badge-success count">
+                              <p>4.4</p>
+                            </span>
+                            <p>Excellent</p>
+                          </div>
+                          <div class="comment">
+                            <p>Product really great . I am totally sctified this product .really good camera for beggner
+                              .but flash button was missing that is not good .and capture is 18 mp wasn't good I was
+                              hopeed it will be 24 mp . it is also missing .n everything is good .</p>
+                          </div>
+                          <div class="review-images flex">
+                            <img src="images/Items/cam.webp">
+                            <img src="images/Items/cam.webp">
+                            <img src="images/Items/cam.webp">
+                            <img src="images/Items/cam.webp">
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="reviews-panel">
+                          <div class="overal-review">
+                            <span class="badge badge-success count">
+                              <p>4.4</p>
+                            </span>
+                            <p>Excellent</p>
+                          </div>
+                          <div class="comment">
+                            <p>Product really great . I am totally sctified this product .really good camera for beggner
+                              .but flash button was missing that is not good .and capture is 18 mp wasn't good I was
+                              hopeed it will be 24 mp . it is also missing .n everything is good .</p>
+                          </div>
+                          <div class="review-images flex">
+                            <img src="images/Items/cam.webp">
+                            <img src="images/Items/cam.webp">
+                            <img src="images/Items/cam.webp">
+                            <img src="images/Items/cam.webp">
+                          </div>
+                        </div>
+
                       </div>
-                      <hr>
-                      <div class="reviews-panel">
-                        <div class="overal-review">
-                          <span class="badge badge-success count"><p>4.4</p></span>
-                          <p>Excellent</p>
-                        </div>
-                        <div class="comment">
-                          <p>Product really great . I am totally sctified this product .really good camera for beggner .but flash button was missing that is not good .and capture is 18 mp wasn't good I was hopeed it will be 24 mp . it is also missing .n everything is good .</p>
-                        </div>
-                        <div class="review-images flex">
-                          <img src="images/Items/cam.webp">
-                          <img src="images/Items/cam.webp">
-                          <img src="images/Items/cam.webp">
-                          <img src="images/Items/cam.webp">
-                        </div>
-                      </div>
-                      <hr>
-                      <div class="reviews-panel">
-                        <div class="overal-review">
-                          <span class="badge badge-success count"><p>4.4</p></span>
-                          <p>Excellent</p>
-                        </div>
-                        <div class="comment">
-                          <p>Product really great . I am totally sctified this product .really good camera for beggner .but flash button was missing that is not good .and capture is 18 mp wasn't good I was hopeed it will be 24 mp . it is also missing .n everything is good .</p>
-                        </div>
-                        <div class="review-images flex">
-                          <img src="images/Items/cam.webp">
-                          <img src="images/Items/cam.webp">
-                          <img src="images/Items/cam.webp">
-                          <img src="images/Items/cam.webp">
-                        </div>
-                      </div>
-                      <hr>
-                      <div class="reviews-panel">
-                        <div class="overal-review">
-                          <span class="badge badge-success count"><p>4.4</p></span>
-                          <p>Excellent</p>
-                        </div>
-                        <div class="comment">
-                          <p>Product really great . I am totally sctified this product .really good camera for beggner .but flash button was missing that is not good .and capture is 18 mp wasn't good I was hopeed it will be 24 mp . it is also missing .n everything is good .</p>
-                        </div>
-                        <div class="review-images flex">
-                          <img src="images/Items/cam.webp">
-                          <img src="images/Items/cam.webp">
-                          <img src="images/Items/cam.webp">
-                          <img src="images/Items/cam.webp">
-                        </div>
-                      </div>
-                      <hr>
-                      <div class="reviews-panel">
-                        <div class="overal-review">
-                          <span class="badge badge-success count"><p>4.4</p></span>
-                          <p>Excellent</p>
-                        </div>
-                        <div class="comment">
-                          <p>Product really great . I am totally sctified this product .really good camera for beggner .but flash button was missing that is not good .and capture is 18 mp wasn't good I was hopeed it will be 24 mp . it is also missing .n everything is good .</p>
-                        </div>
-                        <div class="review-images flex">
-                          <img src="images/Items/cam.webp">
-                          <img src="images/Items/cam.webp">
-                          <img src="images/Items/cam.webp">
-                          <img src="images/Items/cam.webp">
-                        </div>
-                      </div>
-                      
-                    </div>
                     </div>
                     <!-- =====Ratting & Reviews End -->
 
+                  </div>
                 </div>
-              </div>
                 <!-- Highlights End -->
               </div>
-            </div>
             </div>
           </div>
         </div>
       </div>
-  
-        <footer>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="row">
-                  <div class="col-md-3">
-                    <div class="f-links"> 
-                    <h6 class="f-title">ABOUT</h6>
-                    <a href="">Contact Us</a><br>
-                    <a href="">About Us</a>
-                    <a href=""> Careers</a>
-                    <a href="">Fliptkart Store</a>
-                    <a href="">Fresh</a>
-                    <a href="">Flipkart Wholesale</a>
-                    <a href="">Carporate Information</a>
-                  </div> 
-                  </div>
-                  <div class="col-md-3">
-                    <div class="f-links"> 
-                    <h6 class="f-title">HELF</h6>
-                    <a href="">Payment</a><br>
-                    <a href="">Shipping</a>
-                    <a href=""> Cancellation & Returns</a>
-                    <a href="">FAQ</a>
-                    <a href="">Report</a>
-                    <a href="">Information</a>
-              
-                  </div> 
-                  </div>
-                  <div class="col-md-3">
-                    <div class="f-links"> 
-                    <h6 class="f-title">CONSUMER POLICY</h6>
-                    <a href="">Return Policy</a><br>
-                    <a href="">Terms Of Use</a>
-                    <a href=""> Security</a>
-                    <a href="">Privacy</a>
-                    <a href="">sitemap</a>
-                    <a href="">Grievance</a>
-                    <a href="">EPR</a>
-                  </div> 
-                  </div>
-                  <div class="col-md-3">
-                    <div class="f-links"> 
-                    <h6 class="f-title">ABOUT</h6>
-                    <a href="">Contact Us</a><br>
-                    <a href="">About Us</a>
-                    <a href=""> Careers</a>
-                    <a href="">Fliptkart Store</a>
-                    <a href="">Fresh</a>
-                    <a href="">Flipkart Wholesale</a>
-                    <a href="">Carporate Information</a>
-                  </div> 
-                  </div>
-                </div>
+    </div>
+    <div class="related-products">
+      <h4>Related Items</h4>
+      <div class="product-slider owl-carousel owl-theme">
+        <div class="slide-item">
+          <img src="images/items/tv.webp">
+          <p class="item-title"> This is the Product Title</p>
+          <span><a href="">Up to 80% Off</a></span><br>
+          <span class="sub-title">Samsung Ultra Tv this</span>
+        </div>
+        <div class="slide-item ">
+          <img src="images/items/1.webp">
+          <p class="item-title"> testing</p>
+          <span><a href="">Up to 80% Off</a></span><br>
+          <span class="sub-title">Samsung Ultra Tv this</span>
+        </div>
+        <div class="slide-item">
+          <img src="images/items/cam.webp">
+          <p class="item-title"> testing</p>
+          <span><a href="">Up to 80% Off</a></span><br>
+          <span class="sub-title">Samsung Ultra Tv this</span>
+        </div>
+        <div class="slide-item">
+          <img src="images/items/trim.webp">
+          <p class="item-title"> testing</p>
+          <span><a href="">Up to 80% Off</a></span><br>
+          <span class="sub-title">Samsung Ultra Tv this</span>
+        </div>
+        <div class="slide-item">
+          <img src="images/items/tv.webp">
+          <p class="item-title"> testing</p>
+          <span><a href="">Up to 80% Off</a></span><br>
+          <span class="sub-title">Samsung Ultra Tv this</span>
+        </div>
+
+        <div class="slide-item">
+          <img src="images/items/trimm.webp">
+          <p class="item-title"> testing</p>
+          <span><a href="">Up to 80% Off</a></span><br>
+          <span class="sub-title">Samsung Ultra Tv this</span>
+        </div>
+        <div class="slide-item">
+          <img src="images/items/trimm.webp">
+          <p class="item-title"> testing</p>
+          <span><a href="">Up to 80% Off</a></span><br>
+          <span class="sub-title">Samsung Ultra Tv this</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="f-links">
+                <h6 class="f-title">ABOUT</h6>
+                <a href="">Contact Us</a><br>
+                <a href="">About Us</a>
+                <a href=""> Careers</a>
+                <a href="">Fliptkart Store</a>
+                <a href="">Fresh</a>
+                <a href="">Flipkart Wholesale</a>
+                <a href="">Carporate Information</a>
               </div>
-             
-              <div class="col-md-6">
-                <div class="row">
-                  <div class="col-md-2">
-  
-                    <div class="vl"></div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="f-links"> 
-                    <h6 class="f-title">ABOUT</h6>
-                    <p class="mailing">Flipkart Internet Private Limited,
-                      Buildings Alyssa, Begonia &
-                      Clove Embassy Tech Village, 
-                      Outer Ring Road, Devarabeesanahalli Village,
-                      Bengaluru, 560103,
-                      Karnataka, India</p><br> 
-                  </div> 
-                  </div>
-                  <div class="col-md-4">
-                    <div class="f-links"> 
-                    <h6 class="f-title">ABOUT</h6>
-                   <p class="mailing">Flipkart Internet Private Limited,              
-                    Clove Embassy Tech Village,  
-                    Outer Ring Road, Devarabeesanahalli Village, 
-                    Bengaluru, 560103, 
-                    Karnataka, India
-                    CIN : U51109KA2012PTC066107 
-                    Telephone: 044-45614700</p>
-                  </div> 
-                  </div>
-                </div>
+            </div>
+            <div class="col-md-3">
+              <div class="f-links">
+                <h6 class="f-title">HELF</h6>
+                <a href="">Payment</a><br>
+                <a href="">Shipping</a>
+                <a href=""> Cancellation & Returns</a>
+                <a href="">FAQ</a>
+                <a href="">Report</a>
+                <a href="">Information</a>
+
               </div>
+            </div>
+            <div class="col-md-3">
+              <div class="f-links">
+                <h6 class="f-title">CONSUMER POLICY</h6>
+                <a href="">Return Policy</a><br>
+                <a href="">Terms Of Use</a>
+                <a href=""> Security</a>
+                <a href="">Privacy</a>
+                <a href="">sitemap</a>
+                <a href="">Grievance</a>
+                <a href="">EPR</a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="f-links">
+                <h6 class="f-title">ABOUT</h6>
+                <a href="">Contact Us</a><br>
+                <a href="">About Us</a>
+                <a href=""> Careers</a>
+                <a href="">Fliptkart Store</a>
+                <a href="">Fresh</a>
+                <a href="">Flipkart Wholesale</a>
+                <a href="">Carporate Information</a>
               </div>
             </div>
           </div>
-        </footer>
-        
-    <script src="js/owl-carousel/owl.carousel.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/Myscript.js"></script>
-    <script src="js/script.js"></script>
-  </body>
-  </html>
+        </div>
+
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-2">
+
+              <div class="vl"></div>
+            </div>
+            <div class="col-md-4">
+              <div class="f-links">
+                <h6 class="f-title">ABOUT</h6>
+                <p class="mailing">Flipkart Internet Private Limited,
+                  Buildings Alyssa, Begonia &
+                  Clove Embassy Tech Village,
+                  Outer Ring Road, Devarabeesanahalli Village,
+                  Bengaluru, 560103,
+                  Karnataka, India</p><br>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="f-links">
+                <h6 class="f-title">ABOUT</h6>
+                <p class="mailing">Flipkart Internet Private Limited,
+                  Clove Embassy Tech Village,
+                  Outer Ring Road, Devarabeesanahalli Village,
+                  Bengaluru, 560103,
+                  Karnataka, India
+                  CIN : U51109KA2012PTC066107
+                  Telephone: 044-45614700</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <script src="js/owl-carousel/owl.carousel.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/Myscript.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

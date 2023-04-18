@@ -657,7 +657,38 @@ footer{
 .reviews-panel{
     margin-bottom: 10px;
 }
-.product-view a{
-    width:200px;
+.product-details-section{
+    background-color: white;
+}
+.cart-buttons{
+    display: flex;
+    width: 100%;
+    margin-top:15px;
+}
+.cart-buttons #cart-btn{
+    width: 50%;
+    height: 50px;
+    padding:10px;
+    margin-right: 10px;
     background-color: orange;
+    border-radius: 3px;
+    text-align: center;
+    color:white;
+    font-weight: 700;
+    text-decoration: none;
+}
+#buy-btn{
+    width: 50%;
+    height: 50px;
+    padding:10px;
+    margin-right: 10px;
+    background-color:orangered;
+    border-radius: 3px;
+    text-align: center;
+    color:white;
+    font-weight: 700;
+    text-decoration: none;
+}
+crt-icon{
+    margin-top: 10px;
 }
