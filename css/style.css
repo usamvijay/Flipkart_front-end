@@ -570,10 +570,94 @@ footer{
     width: auto;
     height: 100px;
 }
-.specification .list-group{
+/* === Specifications Css */
+
+.specification{
+    width: 100%;
+    margin-bottom: 10px;
+    /* background-color: grey; */
+}
+.specification-content h3{
+    border-bottom: 1px solid grey;
+}
+.specification table{
     width:100%;
 }
-.specification-name p{
+.specification table td{
+    border:1px solid grey;
+    padding:10px;
+}
+.specification-property p{
     color:grey;
-    font-weight: 400;
+}
+/* ====== Ratting and Review Css */
+.review-section{
+    margin:10px 0px;
+    padding:15px;
+    border:1px solid grey;
+    width:100%;
+}
+.ratting-header{
+    display: flex;
+    position: relative;
+}
+.ratting-header h4{
+    float:left;
+    font-weight: 600;
+}
+.ratting-header a{
+    text-decoration: none;
+    background-color: white;
+    padding:14px 30px;
+    box-shadow: 1px 1px 3px  rgba(14, 13, 13, 0.5);
+    border-radius: 2px;
+    color:black;
+    font-size: 14px;
+    float:right;
+    position: absolute;
+    right:15px;
+}
+.ratting-panel{
+    margin-top:50px;
+}
+.overal-ratting{
+    /* width: 20%; */
+}
+.ratting-bars{
+    display: flex;
+    /* line-height: -5px; */
+    height: 25px;
+}
+.ratting-bars h6{
+    margin-top:5px;
+}
+.star-ratting{
+    font-size: 18px;
+    margin-top:3px;
+}
+.progress{
+    width: 200px;
+    height: 6px;
+    margin-top: 10px;
+}
+.overal-review{
+    display: flex;
+    
+}
+.overal-review p{
+    font-weight: 700;
+}
+.review-images img{
+    width:50px;
+    height: auto;
+    padding:5px;
+    border:1px solid grey;
+    border-radius:3px;
+}
+.reviews-panel{
+    margin-bottom: 10px;
+}
+.product-view a{
+    width:200px;
+    background-color: orange;
 }
