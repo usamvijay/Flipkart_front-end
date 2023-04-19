@@ -37,5 +37,3 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
-
-$("#demo").html("JQUERRY IS WORKING");

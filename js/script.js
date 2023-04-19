@@ -1,4 +1,4 @@
 //  User_Card_dropDown=====//
 $(document).ready(function(){
-    alert("this is working");
-});
+    alert('this is working')
+})

@@ -692,3 +692,24 @@ footer{
 crt-icon{
     margin-top: 10px;
 }
+.related-products{
+    box-shadow: 1px 1px 3px  rgba(14, 13, 13, 0.5);
+}
+.related-products h4{
+    color:black;
+    margin: 20px 10px;
+    font-size: 20px;
+}
+/* ====== cart item css start hare */
+.cart-item-section{
+    margin-top: 10px;
+    background-color: white;
+}
+.cart-item-image img{
+    width: 150px;
+    height: 150px;
+    padding:10px;
+}
+.cart-tittle{
+    padding:10px 20px;
+}
