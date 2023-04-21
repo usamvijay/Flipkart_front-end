@@ -713,3 +713,81 @@ crt-icon{
 .cart-tittle{
     padding:10px 20px;
 }
+.cart-tittle a{
+    text-decoration: none;
+    color:black;
+}
+.cart-tittle a:hover{
+    color:blue;
+}
+.cart-tittle span, p{
+    color:grey; 
+    font-weight: 400;
+    font-size: 14px;
+}
+.cart-tittle img{
+    width:auto;
+    height: 18px;
+    margin-left:10px;
+}
+.prices h5{
+    margin-left:10px;
+}
+.delivery-time{
+    padding:10px 20px;
+    display: flex;
+    margin-left:-60px;
+    margin-top:05px;
+
+}
+.delivery-time p{
+    font-size: 13px;
+}
+.cart-functions{
+    margin-left:20px;
+    padding:10px;
+    margin-bottom: 10px;
+}
+.cart-functions button{
+    border-radius: 50%;
+    width:30px;
+    border:1px solid grey;
+    font-size: 15px;
+    outline:none;
+    margin:0px 15px;
+    background-color: white;
+}
+.cart-functions input{
+    width:50px;
+    border:1px solid grey;
+    border-radius: 4px;
+    padding-left:10px;
+    
+}
+.cart-functions h6{
+    margin:0px  10px;
+    font-weight: 700;
+    
+}
+.place-order{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    border-top:2px solid rgba(153, 151, 151, 0.5);
+
+}
+.place-order a{
+    width: 50%;
+    height: 50px;
+    padding:10px 20px;
+    margin-right: 10px;
+    background-color:orangered;
+    border-radius: 3px;
+    text-align: center;
+    color:white;
+    font-weight: 700;
+    text-decoration: none;
+    float: right;
+    padding: auto;
+   
+}
